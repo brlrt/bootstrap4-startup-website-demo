@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Modules
+   ========================================================================== */
+.blockquote {
+  border: none;
+  padding: 0;
+
+  font-size: 1.6rem;
+
+  color: #333;
+}
+
+.blockquote__footer {
+  margin: 1rem 0 0;
+}
+
+.stage {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  background: url( "../images/stage.jpg" ) center center no-repeat;
+  background-size: cover;
+  color: #FFF;
+}
+
+.stage__caption {
+  max-width: 60rem;
+  margin: 0 auto;
+
+  font-size: 1.4rem;
+  font-weight: 200;
+
+  text-align: center;
+
+  h1 {
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+}

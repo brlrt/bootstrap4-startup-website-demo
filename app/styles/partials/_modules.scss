@@ -40,3 +40,36 @@
     text-transform: uppercase;
   }
 }
+
+.feature {
+  &--dark {
+    background: #262F36;
+    color: #FFF;
+
+    h2 {
+      color: #FFF;
+    }
+  }
+}
+
+.feature__caption {
+  padding: 2rem 0;
+}
+
+.feature__content {
+  padding: 8rem 0;
+  overflow: hidden;
+
+  img {
+    margin-bottom: -8rem;
+  }
+}
+
+
+
+@media screen and ( min-width: 991px ) {
+  .feature__content {
+    display: flex;
+    align-items: center;
+  }
+}

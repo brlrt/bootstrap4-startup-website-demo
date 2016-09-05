@@ -50,9 +50,19 @@
       color: #FFF;
     }
   }
+
+  &--light {
+    background: #F0F0F0;
+  }
+
+  &--full {
+    img {
+      margin-top: 2rem;
+    }
+  }
 }
 
-.feature__caption {
+.feature__text-block {
   padding: 2rem 0;
 }
 
@@ -61,7 +71,28 @@
   overflow: hidden;
 
   img {
-    margin-bottom: -8rem;
+    margin-bottom: -10rem;
+  }
+}
+
+#feature-four {
+  .feature__content, .feature__text-block {
+    padding: 0;
+  }
+}
+
+.main-footer {
+  background: #262f36;
+  color: #FFF;
+  padding: 6rem 0;
+  font-size: 0.8rem;
+
+  a {
+    color: #6C6F73;
+  }
+
+  h6 {
+    color: #718FA9;
   }
 }
 

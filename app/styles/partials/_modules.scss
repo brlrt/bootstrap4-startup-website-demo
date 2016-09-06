@@ -104,3 +104,23 @@
     align-items: center;
   }
 }
+
+@media (max-width: 991px) {
+  #feature-four {
+    padding: 8rem 0;
+  }
+
+  .legal, .footer-links {
+    margin-bottom: 2rem;
+  }
+
+  .footer-links:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  #nav {
+    position: static;
+  }
+}
